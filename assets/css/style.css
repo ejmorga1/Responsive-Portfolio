@@ -1,0 +1,319 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    background-image: url("../images/concrete_seamless.png");
+    background-repeat: repeat;
+    padding: 39px 0 40px 0;
+    border-top: 2px solid #cccccc;
+}
+
+header {
+    text-align: right;
+    overflow: auto;
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+.logo {
+    background-color: #4aaaa5;
+    padding: 29px;
+    float: left;
+}
+
+.logo h1 {
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+main h2 {
+    color: #4aaaa5;
+    font-weight: bolder;
+    margin: 4px 0 0 0;
+}
+
+nav {
+    float: right;
+    padding: 34px 0 34px 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "'Georgia', Times, Times New Roman, serif";
+    font-size: 32px;
+}
+
+p,
+a {
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #777777;
+    text-decoration: none;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.seperate {
+    color: #dddddd;
+    margin: 0 10px 0 10px;
+}
+
+#Profile {
+    float: left;
+    height: 150px;
+    width: 200px;
+    margin: 0 27px 0 0;
+    position: relative;
+    top: 8px;
+}
+
+hr {
+    height: 3px;
+    background-color: #dddddd;
+    color: #dddddd;
+    border: 0;
+    margin: 33px 0 33px 0;
+}
+
+Main {
+    width: 900px;
+    margin: auto;
+    margin-bottom: 3em;
+    overflow: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #dddddd;
+}
+
+.portfolio section {
+    float: left;
+    padding: 0 40px 60px 0;
+    position: relative;
+}
+
+.portfolio h3 {
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 19px;
+    width: 262px;
+    position: absolute;
+    top: 120px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 25px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -68px;
+}
+
+.push {
+    height: 68px;
+}
+
+footer {
+    height: 60px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+
+
+
+
+
+@media screen and (max-width: 980px) {
+    header {
+        width: 90%;
+    }
+    .content {
+        padding-top: 22px;
+    }
+    main {
+        width: 570px;
+        margin: 0 auto 0 5%;
+    }
+    .logo {
+        padding: 23px;
+    }
+    nav {
+        padding: 27px 0 27px 0;
+    }
+    h1,
+    h2,
+    h3 {
+        font-size: 28px;
+    }
+    p,
+    a {
+        font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+        color: #777777;
+        font-size: 14px;
+    }
+    p {
+        line-height: 1.8;
+    }
+    .portfolio img {
+        width: 222px;
+    }
+    .portfolio section {
+        padding: 0 20px 30px 0;
+    }
+    .portfolio h3 {
+        text-align: center;
+        padding: 16px 0;
+        width: 222px;
+        top: 90px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 96%;
+    }
+    .content {
+        padding-top: 22px;
+    }
+    main {
+        width: 570px;
+        margin: 0 auto 0 2%;
+    }
+    .logo {
+        padding: 23px;
+    }
+    nav {
+        padding: 27px 0 27px 0;
+    }
+    h1,
+    h2,
+    h3 {
+        font-size: 28px;
+    }
+    p,
+    a {
+        font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+        color: #777777;
+        font-size: 14px;
+    }
+    p {
+        line-height: 1.8;
+    }
+    .portfolio img {
+        width: 222px;
+    }
+    .portfolio section {
+        padding: 0 20px 30px 0;
+    }
+    .portfolio h3 {
+        text-align: center;
+        padding: 16px 0;
+        width: 222px;
+        top: 90px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+    header {
+        width: 100%;
+    }
+    .content {
+        padding-top: 22px;
+    }
+    main {
+        width: 81%;
+        margin: 0 auto;
+    }
+    .logo {
+        padding: 23px 0;
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    nav {
+        padding: 20px 0;
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    h1,
+    h2,
+    h3 {
+        font-size: 28px;
+    }
+    p,
+    a {
+        font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+        color: #777777;
+        font-size: 14px;
+    }
+    p {
+        line-height: 1.8;
+    }
+    #Profile {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .portfolio img {
+        width: 100%;
+        margin: 0;
+    }
+    .portfolio section {
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 0;
+        width: 100%;
+    }
+    .portfolio h3 {
+        text-align: center;
+        padding: 6% 0;
+        width: 100%;
+        top: 65%;
+        font-size: 20px;
+    }
+}
